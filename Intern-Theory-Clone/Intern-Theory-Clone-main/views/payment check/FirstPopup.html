@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modal</title>
+    <link href="../../public/css/FirstPopup.css" rel="stylesheet" />
+    <script defer src="../../public/javascript/FirstPopup.js"></script>
+  </head>
+  <body>
+    <button data-modal-target="#modal">Open Modal</button>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Pay Via</div>
+        <!-- <button data-close-button class="close-button">&times;</button> -->
+      </div>
+      <div class="modal-body">
+        <div class="paymentPage">
+          <img src="../../public/Images/card.png" class="card" /> CREDIT CARD
+        </div>
+        <div class="paymentPage">
+          <img
+            src="../../public/Images/card.png"
+            class="card"
+            style="margin-right: 3px"
+          />DEBIT CARD
+        </div>
+        <div class="paymentPage">NET BANKING</div>
+        <div class="paymentPage">PAYTM</div>
+        <div class="paymentPage">UPI</div>
+        <div class="paymentPage">EMI(CREDIT CARD)</div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+  </body>
+</html>

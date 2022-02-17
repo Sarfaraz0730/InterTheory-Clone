@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Modal</title>
+    <link href="../../public/css/debitcard.css" rel="stylesheet" />
+    <script defer src="../../public/javascript/debitcard.js"></script>
+    <script
+      src="https://kit.fontawesome.com/05f0690cbc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <button data-modal-target="#modal">Open Modal</button> -->
+    <div class="modal" id="modal">
+      <div id="header">
+        <button data-close-button class="close-button">X</button>
+        <div class="modal-header">
+          <!-- <div class="title">Example Modal</div> -->
+          <div id="redPart">
+            <div>
+              <img src="../../public/Images/cardpageLogo.jpg" />
+            </div>
+            <div id="cartDetails">
+              <div>InternTheory</div>
+              <div id="purchaseDescription">Purchase Description</div>
+              <div id="priceDiv">₹ 33,037</div>
+            </div>
+          </div>
+        </div>
+        <div id="language">
+          English
+          <span class="arrowIconsDown"><i class="fas fa-angle-down"></i></span>
+        </div>
+        <div id="cardNumber">
+          <div>
+            <span class="arrowIconsLeft"><i class="fas fa-angle-left"></i></span
+            >Card
+          </div>
+          <div > <img src="../../public/Images/contact.png" id="arrowIconsLeft"></img><span id="phoneNo">+9080301817</span></div>
+        </div>
+      </div>
+      <div id="cardAddingOption">Add New Card</div>
+      <div class="modal-body">
+        <div id="cardNo">
+          <label for="">Card Number</label>
+          <input type="number" />
+        </div>
+        <div id="expiry">
+          <label for="">Expiry</label>
+          <input type="number" />
+        </div>
+        <div id="holderName">
+          <label for="">Card Holder's name</label>
+          <input type="text" />
+        </div>
+        <div id="cvv">
+          <label for="">CVV</label>
+          <input type="password" />
+        </div>
+      </div>
+      <div id="cardSave">
+        <input type="checkbox" id="checkbox" / >
+        <div id="saveCardDiv">
+          <div>Save card securely for future payments</div>
+          <a href="">Know More</a>
+        </div>
+      </div>
+      <div id="verify">PAY <span>₹ 33,037</span></div>
+    </div>
+    <div id="overlay"></div>
+  </body>
+</html>

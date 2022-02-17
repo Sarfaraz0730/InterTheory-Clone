@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+#header {
+  width: 100%;
+  box-sizing: border-box;
+  height: 65px;
+  border: 1px solid white;
+  display: flex;
+  padding-left: 12px;
+  padding-right: 24px;
+  position: fixed;
+  box-shadow: rgba(0, 2px, 2px, -1px);
+}
+#headerDiv {
+  display: flex;
+}
+#navEnd {
+  margin-left: auto;
+}
+#menu {
+  width: 40px;
+  height: 40px;
+  margin: 6px 0;
+  border-radius: 50%;
+}
+#logo {
+  width: 75px;
+  height: 38px;
+  padding-top: 8px;
+  padding-left: 15px;
+  vertical-align: top;
+}
+#cart {
+  width: 28px;
+  height: 28px;
+  margin: 6px 0;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+#navProfile {
+  width: 28px;
+  height: 28px;
+  margin: 6px 0;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+#bellNotification {
+  font-size: 21px;
+  margin: 6px 0;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+  margin-bottom: 30px;
+  color: grey;
+  margin-top: 0;
+}
+#bellNotification:hover {
+  background-color: rgb(226, 225, 225);
+}
+#cart:hover {
+  background-color: rgb(226, 225, 225);
+}
+#navProfile:hover {
+  background-color: rgb(226, 225, 225);
+}
+#navEnd > button {
+  background-color: #df1e2e;
+  color: white;
+  font: bolder;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 8px;
+  vertical-align: top;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  width: 82px;
+  height: 35px;
+  border-radius: 5px;
+  outline: none;
+}
+#navEnd button {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* SideBar */
+
+#sideBar {
+  display: none;
+  margin: 0px;
+  width: 0px;
+  height: 100%;
+  position: fixed;
+  /* border: 1px solid red; */
+  display: inline-block;
+  transition: 0.3s;
+  box-shadow: 0px 1px 14px 0px rgb(0 0 0 / 12%);
+  overflow-y: auto;
+}
+#sidebarNav {
+  display: flex;
+}
+.sidebarNav_img {
+  display: none;
+}
+.sidebarNav_img2 {
+  display: none;
+}
+#sidebarCategories > ul {
+  list-style: none;
+  margin-top: 15px;
+  padding: 0;
+  line-height: 2.5;
+  display: none;
+  font-size: 14px;
+  color: #212121;
+  font-weight: 700;
+  vertical-align: top;
+}
+.categoriesHeading {
+  margin-left: 25px;
+  vertical-align: top;
+}
+.sidebarCatagoriesUL > li {
+  padding: 10px;
+  display: flex;
+}
+.sidebarIcons {
+  width: 22px;
+  height: 19px;
+  padding-top: 10px;
+}
+#sidebarCategoriesHR {
+  width: 100%;
+  border: none;
+  border-top: 1px solid rgb(222, 222, 222);
+  margin: 10px;
+}
+#menu:hover {
+  background-color: hsla(0, 0%, 98%, 0.075);
+}
+.fa-chevron-down {
+  color: #087cdd;
+  padding-right: auto;
+}
+/* .expandableLogin .expandableRegister .expandableCourse {
+} */
+#sidebarCatagoriesUL > li:hover {
+  background-color: #dcdcdc;
+}
+#sidebarCatagoriesUL {
+  max-width: 100%;
+}
+.sidebarTitles i {
+  float: right;
+  margin-right: 25px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+#coursesHidden,
+#loginHidden,
+#registerHidden {
+  display: none;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  text-align: left;
+  padding-left: 30%;
+}
+/* new for sidebar */
+
+#sidebarImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#sidebarProfile {
+  display: flex;
+  line-height: 1.7;
+  background: rgb(251, 251, 251);
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.75rem;
+  padding-left: 45px;
+  height: 70px;
+  padding-top: 10px;
+}
+#sidebarProfile > div {
+  margin-left: 20px;
+}

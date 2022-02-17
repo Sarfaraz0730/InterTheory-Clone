@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "..\\project"
+		},
+		{
+			"path": "..\\ejs (1)"
+		},
+		{
+			"path": "..\\..\\Downloads\\Intern_Theory-main (1)"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\main-project"
+		},
+		{
+			"path": "..\\..\\Downloads\\authentication (1)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ejs (1)"
+	}
+}
